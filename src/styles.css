@@ -1,4 +1,54 @@
-.App {
+body {
   font-family: sans-serif;
+}
+
+input {
+  border-radius: 3px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 3px;
+  border: none;
+  padding: 4px 16px;
+  margin: 0 2px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.imcomplete {
+  background-color: #c6ffe2;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 3px;
+}
+
+.complete {
+  background-color: #ffffe0;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 3px;
+}
+
+.title {
   text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
 }
